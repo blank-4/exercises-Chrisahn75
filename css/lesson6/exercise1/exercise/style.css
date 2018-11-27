@@ -1,0 +1,27 @@
+#Offset {
+    display: none;
+}
+
+#Offset:target {
+  display:block;
+  background-color: yellowgreen;
+}
+
+#Migos {
+  display:none;
+}
+
+#Migos:target {
+  display:block;
+  background-color: red;
+}
+
+nav:hover {
+  transition: background-color 300ms;
+  background-color:sandybrown;
+}
+
+a:hover {
+  color: whitesmoke;
+  transition: color 300ms;
+}

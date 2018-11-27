@@ -1,0 +1,28 @@
+div {
+    height: 30px;
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+span {
+    display: inline-block;
+    height: 30px;
+    width: 0px;
+    animation: loader 2s linear 0s infinite;
+    border-radius: 10Opx;
+}
+
+@keyframes loader {
+
+   0%   {width: 0px; background-color:red; } 
+   
+   25% {width: 50px; background-color: blueviolet;}
+
+   50% {width: 100px; background-color:violet;}
+
+   75% {width: 150px; background-color:rosybrown;}
+
+   100% {width: 200px; background-color: gray;}
+
+}
