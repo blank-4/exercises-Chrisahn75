@@ -1,13 +1,14 @@
 var number= 6;
 var number2= 8;
 
-function callback (number,number2){
-     var result = appelServeur()
-     callback(result);
-};
+function binks (number,number2){
+    if (number,number2) {
+        return number;
+      } 
+    else {
+        return number2;
+      }
+    }
+console.log(number,number2);
 
-function callback (result) {
-    console.log(result);
-}
 
-callback (number,number2);
